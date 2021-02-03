@@ -1,0 +1,11 @@
+body {
+    font-family: 'Imbue', serif;
+    background-image: url(../media/bohomaz.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3 {
+    color: tomato;
+    font-weight: bold;
+}
