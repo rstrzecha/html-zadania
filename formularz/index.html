@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imbue:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        <img src="https://via.placeholder.com/60" alt="Logo" />
+      </a>
+      <nav>
+        <a href="../media/index.html">MEDIA</a>
+        <a href="../newsy/index.html">NEWSY</a>
+        <a href="../kontakt/index.html">KONTAKT</a>
+        <a href="../uzytkownicy/index.html">UŻYTKOWNICY</a>
+        <a href="./index.html">FORM</a>
+      </nav>
+    </header>
+    <main>
+      <form class="form">
+        <div class="form_container">
+          <label>
+            Imię
+            <input type="text" name="name" placeholder="podaj imię" />
+          </label>
+          <label>
+            Nazwisko
+            <input type="text" name="surname" placeholder="podaj nazwisko" />
+          </label>
+          <label>
+            Wiek
+            <input type="number" name="age" placeholder="podaj wiek" />
+          </label>
+        </div>
+        <label>
+          Płeć
+          <select name="gender">
+            <option value="k">Kobieta</option>
+            <option value="m">Mężczyzna</option>
+          </select>
+        </label>
+        <br />
+        <label>
+          Akceptuj
+          <input type="checkbox" name="rules" placeholder="Akceptuj" />
+        </label>
+        <br />
+        <input type="submit" />
+      </form>
+    </main>
+    <footer>2021 Robert Strzecha</footer>
+  </body>
+</html>
